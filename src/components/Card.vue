@@ -5,7 +5,7 @@
       <h1 class="card-title">{{city}}</h1>
     </div>
     <div class="card-link">
-      <a @click="$router.push({name: 'About', parmas: {city: city}})">About</a>
+      <a @click="$router.push({name: 'About', params: {city: city}})">About</a>
     </div>
   </div>
 </template>
