@@ -2,12 +2,7 @@
     "rules": {
         "semi": ["error", "always"],
         "quotes": ["error", "double"],
-        "parser": "babel-eslint",
-        "name": "my-package",
-        "scripts": {
-        "build": "babel src -d lib",
-        "test": "jest"
-    　}
+        "parser": "babel-eslint"
 　　}
     
 }
